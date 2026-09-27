@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Tile Wizard: a mah jongg tile wearing a wizard hat">
+  <rect width="200" height="200" fill="#f3f7fd"/>
+  <!-- tile back / depth -->
+  <rect x="52" y="62" width="104" height="128" rx="12" fill="#2f7d4f"/>
+  <!-- tile face -->
+  <rect x="44" y="54" width="104" height="128" rx="12" fill="#fbf6e6" stroke="#c9bf9f" stroke-width="2"/>
+  <!-- bamboo-style marks -->
+  <g fill="#2f7d4f">
+    <rect x="66" y="112" width="10" height="44" rx="5"/>
+    <rect x="91" y="112" width="10" height="44" rx="5"/>
+    <rect x="116" y="112" width="10" height="44" rx="5"/>
+  </g>
+  <g fill="#e53238">
+    <circle cx="71" cy="134" r="3"/>
+    <circle cx="96" cy="134" r="3"/>
+    <circle cx="121" cy="134" r="3"/>
+  </g>
+  <!-- wizard hat -->
+  <path d="M60 96 Q96 90 132 96 L118 88 L100 14 L86 58 Z" fill="#0064d2"/>
+  <ellipse cx="96" cy="96" rx="44" ry="8" fill="#003f8a"/>
+  <path d="M84 72 Q100 66 114 72 L112 80 Q100 74 86 80 Z" fill="#f5af02"/>
+  <!-- stars -->
+  <g fill="#f5af02">
+    <path d="M100 38 l2.4 5 5.4.6-4 3.7 1.1 5.3-4.9-2.7-4.9 2.7 1.1-5.3-4-3.7 5.4-.6z"/>
+    <path d="M160 40 l2 4 4.4.5-3.2 3 .9 4.3-4.1-2.2-4 2.2.9-4.3-3.3-3 4.5-.5z"/>
+    <path d="M28 120 l1.6 3.3 3.6.4-2.7 2.5.8 3.5-3.3-1.8-3.3 1.8.8-3.5-2.7-2.5 3.6-.4z"/>
+  </g>
+  <g fill="#86b817">
+    <circle cx="170" cy="110" r="3"/>
+    <circle cx="36" cy="70" r="2.5"/>
+  </g>
+  <circle cx="176" cy="150" r="2.5" fill="#e53238"/>
+</svg>

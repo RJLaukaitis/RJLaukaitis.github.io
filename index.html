@@ -3,194 +3,164 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tile Wizard - Privacy Policy</title>
-  <meta name="description" content="Privacy Policy for Tile Wizard.">
-  <style>
-    :root {
-      --bg: #f7f8f3;
-      --card: #ffffff;
-      --text: #24302a;
-      --muted: #66736c;
-      --accent: #315c4a;
-      --border: #dfe5df;
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.7;
-    }
-
-    .container {
-      width: min(900px, calc(100% - 40px));
-      margin: 0 auto;
-    }
-
-    header {
-      padding: 64px 0 36px;
-      text-align: center;
-    }
-
-    .logo {
-      width: 72px;
-      height: 72px;
-      margin: 0 auto 18px;
-      border-radius: 18px;
-      background: var(--accent);
-      color: white;
-      display: grid;
-      place-items: center;
-      font-size: 34px;
-      font-weight: 700;
-      box-shadow: 0 8px 24px rgba(49, 92, 74, 0.18);
-    }
-
-    h1 {
-      margin: 0;
-      font-size: clamp(30px, 5vw, 42px);
-      line-height: 1.2;
-      letter-spacing: -0.02em;
-    }
-
-    .updated {
-      margin-top: 10px;
-      color: var(--muted);
-      font-size: 15px;
-    }
-
-    main {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: clamp(28px, 5vw, 52px);
-      margin-bottom: 48px;
-      box-shadow: 0 4px 20px rgba(30, 45, 37, 0.04);
-    }
-
-    h2 {
-      margin: 34px 0 10px;
-      font-size: 21px;
-      line-height: 1.35;
-    }
-
-    h2:first-child { margin-top: 0; }
-
-    p { margin: 0 0 14px; }
-
-    ol {
-      padding-left: 24px;
-      margin: 10px 0 18px;
-    }
-
-    li { margin-bottom: 6px; }
-
-    a {
-      color: var(--accent);
-      font-weight: 600;
-    }
-
-    .highlight {
-      background: #eef4ef;
-      border-left: 4px solid var(--accent);
-      padding: 16px 18px;
-      border-radius: 8px;
-      margin: 18px 0 24px;
-    }
-
-    footer {
-      text-align: center;
-      color: var(--muted);
-      font-size: 14px;
-      padding: 0 0 40px;
-    }
-
-    @media (max-width: 600px) {
-      .container { width: min(100% - 24px, 900px); }
-      header { padding-top: 40px; }
-      main { border-radius: 14px; padding: 24px 20px; }
-    }
-  </style>
+  <title>RJ Laukaitis - Apps &amp; Projects</title>
+  <meta name="description" content="Apps and projects by RJ Laukaitis, including Tile Wizard for American Mah Jongg.">
+  <link rel="icon" href="assets/tile-wizard.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
-
 <body>
-  <div class="container">
-    <header>
-      <div class="logo" aria-hidden="true">W</div>
-      <h1>Tile Wizard Privacy Policy</h1>
-      <div class="updated">Last Updated: September 27, 2026</div>
-    </header>
+<div class="page">
+
+  <header class="masthead">
+    <a class="logo" href="./" aria-label="RJ Laukaitis home">
+      <span class="r">r</span><span class="b">j</span><span class="y">l</span><span class="g">a</span><span class="r">u</span><span class="b">k</span><span class="y">a</span><span class="g">i</span><span class="r">t</span><span class="b">i</span><span class="y">s</span>
+      <span class="logo-tag">The World's Online Marketplace for RJ's Apps&trade;</span>
+    </a>
+    <nav class="toplinks" aria-label="Utility">
+      <span class="greeting">Hello! Welcome, shopper.</span>
+      <a href="./">home</a> <span class="sep">|</span>
+      <a href="https://github.com/RJLaukaitis">my github</a> <span class="sep">|</span>
+      <a href="privacy/">privacy</a> <span class="sep">|</span>
+      <a href="#contact">help</a>
+    </nav>
+  </header>
+
+  <nav aria-label="Main">
+    <ul class="tabs">
+      <li><a class="active" href="./">Browse</a></li>
+      <li><a href="tile-wizard/">Tile Wizard</a></li>
+      <li><a href="https://github.com/RJLaukaitis">My Projects</a></li>
+      <li><a href="privacy/">Privacy</a></li>
+    </ul>
+  </nav>
+
+  <form class="searchbar" action="./" method="get" role="search">
+    <label for="q">What are you looking for?</label>
+    <input type="text" id="q" name="q" placeholder="e.g. mah jongg">
+    <select aria-label="Category">
+      <option>All Categories</option>
+      <option>iPhone Apps</option>
+      <option>Games</option>
+    </select>
+    <button class="btn" type="submit">Search</button>
+  </form>
+
+  <div class="crumbs">
+    <a href="./">Home</a> &gt; All Categories &gt; <b>Apps by RJ Laukaitis</b>
+  </div>
+
+  <div class="layout">
+    <aside>
+      <div class="box">
+        <h2 class="box-title">Categories</h2>
+        <ul class="catlist">
+          <li><a href="tile-wizard/">iPhone Apps</a> <span class="count">(1)</span></li>
+          <li><a href="tile-wizard/">Games &amp; Hobbies</a> <span class="count">(1)</span></li>
+          <li><span class="side-note">Coming Soon</span> <span class="count">(?)</span></li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h2 class="box-title">Seller Info</h2>
+        <div class="box-body seller">
+          <div class="name">rjlaukaitis <span class="star" aria-hidden="true">&#9733;</span></div>
+          <div class="side-note">Independent developer</div>
+          <p style="margin:6px 0 0">
+            <a href="https://github.com/RJLaukaitis">View seller's other items</a><br>
+            <a href="privacy/">Seller privacy policy</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2 class="box-title light">Safe Shopping</h2>
+        <div class="box-body side-note">
+          No accounts. No ad trackers. No selling your data.
+          <a href="privacy/">Learn more</a>.
+        </div>
+      </div>
+    </aside>
 
     <main>
-      <h2>1. Information We Collect</h2>
-      <p><strong>Tile Wizard does not collect, store, or sell personal information from users.</strong></p>
-      <p>Tile Wizard does not require you to create an account and does not collect your name, email address, phone number, location, contacts, photos, or other personal information.</p>
-      <p>We do not use advertising trackers, analytics services, or third-party tracking technologies to build profiles of our users.</p>
+      <section class="welcome">
+        <h1>Welcome to RJ's App Emporium!</h1>
+        <p>Small, useful apps built by one person. Browse the listings below &mdash; new items are posted whenever they're ready.</p>
+      </section>
 
-      <h2>2. Photos and Camera Images</h2>
-      <p>Tile Wizard allows you to take or select an image of your American Mah Jongg tile rack for the purpose of identifying tiles and analyzing possible hands.</p>
-      <p>When you submit an image for analysis:</p>
-      <ol>
-        <li>The image is securely transmitted for processing.</li>
-        <li>The image is sent to <strong>OpenAI's API</strong> for AI-powered image analysis.</li>
-        <li>The analysis is returned to Tile Wizard so the App can provide your results.</li>
-        <li><strong>Tile Wizard does not retain or store your submitted images.</strong></li>
-      </ol>
-      <p>Tile Wizard does not use submitted images for advertising, profiling, or any purpose other than providing the requested tile-analysis functionality.</p>
-
-      <h2>3. Third-Party Service Providers</h2>
-      <p>Tile Wizard uses OpenAI to provide AI-powered image analysis.</p>
-      <p>Images submitted through Tile Wizard are processed by OpenAI's API. OpenAI states that data submitted to its API is not used to train or improve its models by default unless the customer explicitly opts in.</p>
-      <p>OpenAI may retain certain data for purposes such as abuse monitoring in accordance with its applicable policies. For more information, please review
-        <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer">OpenAI's Privacy Policy</a>
-        and
-        <a href="https://developers.openai.com/api/docs/guides/your-data" target="_blank" rel="noopener noreferrer">OpenAI's API data controls</a>.
-      </p>
-      <p>Tile Wizard does not control OpenAI's independent privacy practices.</p>
-
-      <h2>4. Information Stored on Your Device</h2>
-      <p>Tile Wizard may store certain app settings, preferences, or scan history locally on your device to provide App functionality.</p>
-      <p>This information is stored locally on your device and is not collected by Tile Wizard's servers.</p>
-
-      <h2>5. Payments</h2>
-      <p>If you purchase Tile Wizard through the Apple App Store, payment processing is handled by Apple. Tile Wizard does not receive or store your full payment card information.</p>
-      <p>Your purchase is subject to Apple's applicable terms and privacy policies.</p>
-
-      <h2>6. Children's Privacy</h2>
-      <p>Tile Wizard does not knowingly collect personal information from children.</p>
-      <p>Because Tile Wizard does not require an account or intentionally collect personal information from its users, we do not maintain personal information about children.</p>
-
-      <h2>7. Data Security</h2>
-      <p>We take reasonable measures to protect information transmitted through Tile Wizard, including using encrypted connections when transmitting images for analysis.</p>
-      <p>However, no method of electronic transmission can be guaranteed to be completely secure.</p>
-
-      <h2>8. Data Retention</h2>
-      <p>Tile Wizard does not maintain a database of user accounts, submitted images, or personal profiles.</p>
-      <p>Images submitted for tile analysis are processed for the requested functionality and are not retained by Tile Wizard after processing.</p>
-      <p>Third-party providers, including OpenAI, may have their own data retention practices. Their handling of information is governed by their respective privacy policies and service terms.</p>
-
-      <h2>9. Your Privacy Rights</h2>
-      <p>Because Tile Wizard does not maintain user accounts or retain personal information, there is generally no personal information held by Tile Wizard that can be accessed, corrected, or deleted upon request.</p>
-      <p>Depending on where you live, you may have additional privacy rights under applicable laws.</p>
-
-      <h2>10. Changes to This Privacy Policy</h2>
-      <p>We may update this Privacy Policy from time to time.</p>
-      <p>If we make changes, we will update the “Last Updated” date at the top of this Privacy Policy.</p>
-
-      <h2>11. Contact Us</h2>
-      <p>If you have questions or concerns about this Privacy Policy or Tile Wizard's privacy practices, please contact us at:</p>
-      <div class="highlight">
-        <strong>Tile Wizard</strong><br>
-        Email: <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a>
+      <div class="results-head">
+        <span><b id="result-count">1</b> item found in <b>All Categories</b></span>
+        <span>Sort by: <b>Newly listed</b></span>
       </div>
+      <table class="listings" id="listings">
+        <thead>
+          <tr>
+            <th scope="col"><span class="visually-hidden">Picture</span></th>
+            <th scope="col">Item Title</th>
+            <th scope="col">Price</th>
+            <th scope="col" class="hide-sm">Platform</th>
+            <th scope="col" class="hide-sm">Time Left</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="item" data-keywords="tile wizard mah jongg mahjong american tiles rack ai iphone ios game hobby">
+            <td class="thumb">
+              <a href="tile-wizard/"><img src="assets/tile-wizard.svg" alt="Tile Wizard" width="88" height="88"></a>
+            </td>
+            <td>
+              <div class="title"><a href="tile-wizard/">Tile Wizard &ndash; Snap Your Mah Jongg Rack, See Your Best Hands!</a> <span class="icon-new">NEW!</span></div>
+              <div class="subtitle">American Mah Jongg helper &bull; Photo tile recognition &bull; No account needed</div>
+            </td>
+            <td class="price">
+              See App Store<br>
+              <span class="icon-bin">Buy It Now</span>
+            </td>
+            <td class="col-small hide-sm">iPhone</td>
+            <td class="col-small hide-sm">No end date</td>
+          </tr>
+          <tr class="soon">
+            <td class="thumb"><div class="placeholder-thumb">No picture<br>yet</div></td>
+            <td>
+              <div class="title" style="color:var(--muted)">More items coming soon&hellip;</div>
+              <div class="subtitle">This seller has more listings in the works. Check back later!</div>
+            </td>
+            <td class="col-small">&ndash;</td>
+            <td class="col-small hide-sm">&ndash;</td>
+            <td class="col-small hide-sm">&ndash;</td>
+          </tr>
+        </tbody>
+      </table>
     </main>
-
-    <footer>
-      © 2026 Tile Wizard. All rights reserved.
-    </footer>
   </div>
+
+  <footer class="footer" id="contact">
+    <div class="links">
+      <a href="./">Home</a> |
+      <a href="tile-wizard/">Tile Wizard</a> |
+      <a href="privacy/">Privacy Policy</a> |
+      <a href="https://github.com/RJLaukaitis">GitHub</a>
+    </div>
+    <div>Copyright &copy; 2026 RJ Laukaitis. All Rights Reserved.</div>
+    <div class="fine">Designated trademarks and brands are the property of their respective owners. Use of this Web site constitutes acceptance of the fact that it looks like 2004.</div>
+  </footer>
+
+</div>
+
+<script>
+  // Tiny client-side search over the listings on this page.
+  (function () {
+    var q = new URLSearchParams(location.search).get("q");
+    if (!q) return;
+    var term = q.trim().toLowerCase();
+    document.getElementById("q").value = q;
+    var shown = 0;
+    document.querySelectorAll("#listings tr.item").forEach(function (row) {
+      var text = (row.dataset.keywords + " " + row.textContent).toLowerCase();
+      var match = text.indexOf(term) !== -1;
+      row.hidden = !match;
+      if (match) shown++;
+    });
+    document.getElementById("result-count").textContent = shown;
+  })();
+</script>
 </body>
 </html>
