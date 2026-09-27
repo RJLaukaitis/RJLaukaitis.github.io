@@ -7,7 +7,7 @@ Plain static HTML/CSS served by GitHub Pages — no build step.
 | Route | File |
 | --- | --- |
 | `/` | `index.html` — product listings |
-| `/tile-wizard/` | `tile-wizard/index.html` — Tile Wizard item page |
+| `/tile-wizard/` | `tile-wizard/index.html` — TileWizard item page |
 | `/privacy/` | `privacy/index.html` — privacy policy covering all apps |
 
 ## Adding a new app
