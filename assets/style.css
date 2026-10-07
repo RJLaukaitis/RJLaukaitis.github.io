@@ -162,6 +162,15 @@ h1, h2, h3 { line-height: 1.2; letter-spacing: -.02em; margin: 0; }
 .appstore-badge .small { font-size: 11px; letter-spacing: .01em; }
 .appstore-badge .big { font-size: 21px; font-weight: 600; letter-spacing: -.02em; }
 
+/* "Coming soon" variant: outlined, not a link */
+.appstore-badge.soon {
+  color: var(--text);
+  background: rgba(255, 255, 255, .7);
+  border: 1.5px dashed #b9c1d9;
+  cursor: default;
+}
+.appstore-badge.soon:hover { color: var(--text); transform: none; box-shadow: none; }
+
 /* ---------- Hero ---------- */
 
 .hero {
@@ -230,7 +239,6 @@ h1, h2, h3 { line-height: 1.2; letter-spacing: -.02em; margin: 0; }
 
 .section { padding: 88px 0; }
 .section.soft {
-  background: rgba(244, 247, 253, .6);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
 }
@@ -388,6 +396,13 @@ h1, h2, h3 { line-height: 1.2; letter-spacing: -.02em; margin: 0; }
 }
 .cta-band p { margin: 0 0 30px; color: #c3c7ee; }
 .cta-band .appstore-badge { border: 1px solid rgba(255, 255, 255, .35); }
+.cta-band .cta-row { justify-content: center; }
+.cta-band .appstore-badge.soon,
+.cta-band .appstore-badge.soon:hover {
+  color: #fff;
+  background: transparent;
+  border: 1.5px dashed rgba(255, 255, 255, .45);
+}
 
 /* ---------- Footer ---------- */
 
